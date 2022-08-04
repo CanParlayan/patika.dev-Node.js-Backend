@@ -1,0 +1,6 @@
+function areaCircle(n){
+    const result = 3.14 * n * n
+    console.log(`Yarıçapı ${n} olan dairenin alanı: ${result}`)
+}
+
+areaCircle(process.argv[2])
